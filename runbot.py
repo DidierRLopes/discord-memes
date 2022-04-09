@@ -47,7 +47,7 @@ def create_and_send_meme():
 
 
 @create_and_send_meme()
-def spongebob(inter, text: str, _=None):
+def spongebob(inter, text: str = "", _=None):
     _.text(
         0.5,
         0.2,
@@ -61,7 +61,7 @@ def spongebob(inter, text: str, _=None):
     return _
 
 @create_and_send_meme()
-def chloe(inter, text: str, _=None):
+def chloe(inter, text: str = "", _=None):
     _.text(
         0.5,
         0.2,
@@ -76,7 +76,7 @@ def chloe(inter, text: str, _=None):
 
 
 @create_and_send_meme()
-def dogecheems(inter, dogename: str, dogetext:str, cheemsname: str, cheemstext: str, _=None):
+def dogecheems(inter, dogename: str = "", dogetext: str = "", cheemsname: str = "", cheemstext: str = "", _=None):
     _.text(
         0.25,
         0.9,
@@ -120,7 +120,7 @@ def dogecheems(inter, dogename: str, dogetext:str, cheemsname: str, cheemstext: 
     return _
 
 @create_and_send_meme()
-def stonks(inter, text: str, _=None):
+def stonks(inter, text: str = "", _=None):
     _.text(
         0.675,
         0.39,
@@ -135,7 +135,7 @@ def stonks(inter, text: str, _=None):
     return _
 
 @create_and_send_meme()
-def clown(inter, text1: str, text2: str, text3: str, text4: str, _=None):
+def clown(inter, text1: str = "", text2: str = "", text3: str = "", text4: str = "", _=None):
     _.text(
         0.4,
         0.8,
@@ -184,7 +184,7 @@ def clown(inter, text1: str, text2: str, text3: str, text4: str, _=None):
 
 
 @create_and_send_meme()
-def conspiracy(inter, person: str, text: str, _=None):
+def conspiracy(inter, person: str = "", text: str = "", _=None):
     _.text(
         0.5,
         0.8,
@@ -210,7 +210,7 @@ def conspiracy(inter, person: str, text: str, _=None):
     return _
 
 @create_and_send_meme()
-def cryingkid(inter, kid: str, adult: str, text: str, _=None):
+def cryingkid(inter, kid: str = "", adult: str = "", text: str = "", _=None):
     _.text(
         0.5,
         0.65,
@@ -247,7 +247,7 @@ def cryingkid(inter, kid: str, adult: str, text: str, _=None):
     return _
 
 @create_and_send_meme()
-def dicaprio(inter, text: str, _=None):
+def dicaprio(inter, text: str = "", _=None):
     _.text(
         0.5,
         0.2,
@@ -263,7 +263,7 @@ def dicaprio(inter, text: str, _=None):
 
 
 @create_and_send_meme()
-def disappointed(inter, text1: str, text2: str, _=None):
+def disappointed(inter, text1: str = "", text2: str = "", _=None):
     _.text(
         0.35,
         0.7,
@@ -289,7 +289,7 @@ def disappointed(inter, text1: str, text2: str, _=None):
     return _
 
 @create_and_send_meme()
-def dosomething(inter, text: str, _=None):
+def dosomething(inter, text: str = "", _=None):
     _.text(
         0.55,
         0.7,
@@ -315,7 +315,7 @@ def dosomething(inter, text: str, _=None):
     return _
 
 @create_and_send_meme()
-def drake(inter, text1: str, text2: str, _=None):
+def drake(inter, text1: str = "", text2: str = "", _=None):
     _.text(
         0.7,
         0.7,
@@ -341,7 +341,7 @@ def drake(inter, text1: str, text2: str, _=None):
     return _
 
 @create_and_send_meme()
-def firedog(inter, text: str, _=None):
+def firedog(inter, text: str = "", _=None):
     _.text(
         0.33,
         0.7,
@@ -356,7 +356,7 @@ def firedog(inter, text: str, _=None):
     return _
 
 @create_and_send_meme()
-def firegirl(inter, text1: str, text2: str, _=None):
+def firegirl(inter, text1: str = "", text2: str = "", _=None):
     _.text(
         0.5,
         0.8,
@@ -382,7 +382,7 @@ def firegirl(inter, text1: str, text2: str, _=None):
     return _
 
 @create_and_send_meme()
-def flextape(inter, person: str, problem: str, solution: str, _=None):
+def flextape(inter, person: str = "", problem: str = "", solution: str = "", _=None):
     _.text(
         0.42,
         0.6,
@@ -421,7 +421,7 @@ def flextape(inter, person: str, problem: str, solution: str, _=None):
     return _
 
 @create_and_send_meme()
-def fry(inter, text1: str, text2: str, _=None):
+def fry(inter, text1: str = "", text2: str = "", _=None):
     _.text(
         0.51,
         0.8,
@@ -447,7 +447,7 @@ def fry(inter, text1: str, text2: str, _=None):
     return _
 
 @create_and_send_meme()
-def gettingpaid(inter, text: str, _=None):
+def gettingpaid(inter, text: str = "", _=None):
     _.text(
         0.51,
         0.2,
@@ -462,7 +462,7 @@ def gettingpaid(inter, text: str, _=None):
     return _
 
 @create_and_send_meme()
-def goosebumps(inter, text: str, _=None):
+def goosebumps(inter, text: str = "", _=None):
     _.text(
         0.52,
         0.8,
@@ -477,7 +477,7 @@ def goosebumps(inter, text: str, _=None):
     return _
 
 @create_and_send_meme()
-def grandma(inter, text1: str, text2: str, _=None):
+def grandma(inter, text1: str = "", text2: str = "", _=None):
     _.text(
         0.52,
         0.83,
@@ -503,7 +503,7 @@ def grandma(inter, text1: str, text2: str, _=None):
     return _
 
 @create_and_send_meme()
-def grave(inter,text1: str, text2: str, _=None):
+def grave(inter,text1: str = "", text2: str = "", _=None):
     _.text(
         0.39,
         0.6,
@@ -529,7 +529,7 @@ def grave(inter,text1: str, text2: str, _=None):
     return _
 
 @create_and_send_meme()
-def handshake(inter, left: str, right: str, handshake: str, _=None):
+def handshake(inter, left: str = "", right: str = "", handshake: str = "", _=None):
     _.text(
         0.3,
         0.4,
@@ -566,7 +566,7 @@ def handshake(inter, left: str, right: str, handshake: str, _=None):
     return _
 
 @create_and_send_meme()
-def harold(inter, text1: str, text2: str, _=None):
+def harold(inter, text1: str = "", text2: str = "", _=None):
     _.text(
         0.51,
         0.55,
@@ -592,7 +592,7 @@ def harold(inter, text1: str, text2: str, _=None):
     return _
 
 @create_and_send_meme()
-def headout(inter, text1: str, text2: str, _=None):
+def headout(inter, text1: str = "", text2: str = "", _=None):
     _.text(
         0.3,
         0.8,
@@ -618,7 +618,7 @@ def headout(inter, text1: str, text2: str, _=None):
     return _
 
 @create_and_send_meme()
-def math(inter, text: str, _=None):
+def math(inter, text: str = "", _=None):
     _.text(
         0.3,
         0.55,
@@ -633,7 +633,7 @@ def math(inter, text: str, _=None):
     return _
 
 @create_and_send_meme()
-def pooh(inter, text1: str, text2: str, _=None):
+def pooh(inter, text1: str = "", text2: str = "", _=None):
     _.text(
         0.65,
         0.7,
@@ -659,7 +659,7 @@ def pooh(inter, text1: str, text2: str, _=None):
     return _
 
 @create_and_send_meme()
-def samepic(inter, text1: str, text2: str, _=None):
+def samepic(inter, text1: str = "", text2: str = "", _=None):
     _.text(
         0.65,
         0.7,
@@ -685,7 +685,7 @@ def samepic(inter, text1: str, text2: str, _=None):
     return _
 
 @create_and_send_meme()
-def scientist(inter, text: str, _=None):
+def scientist(inter, text: str = "", _=None):
     _.text(
         0.5,
         0.26,
@@ -700,7 +700,7 @@ def scientist(inter, text: str, _=None):
     return _
 
 @create_and_send_meme()
-def skeptical(inter, text1: str, text2: str, _=None):
+def skeptical(inter, text1: str = "", text2: str = "", _=None):
     _.text(
         0.5,
         0.8,
@@ -726,7 +726,7 @@ def skeptical(inter, text1: str, text2: str, _=None):
     return _
 
 @create_and_send_meme()
-def think(inter, text: str, _=None):
+def think(inter, text: str = "", _=None):
     _.text(
         0.5,
         0.26,
@@ -741,7 +741,7 @@ def think(inter, text: str, _=None):
     return _
 
 @create_and_send_meme()
-def uno(inter, text: str, _=None):
+def uno(inter, text: str = "", _=None):
     _.text(
         0.42,
         0.6,
