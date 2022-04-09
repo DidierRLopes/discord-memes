@@ -31,12 +31,13 @@ def create_and_send_meme():
             fig = func(*args, **kwargs)
 
             plt.tight_layout()
-            image_path = f"{kwargs['inter'].data.name}.jpg".replace(".jpg", f"_{str(uuid.uuid1()).replace('-', '')}.jpg")
-            plt.savefig(image_path, bbox_inches='tight', transparent=True, pad_inches=0)
+            img_name = f"{kwargs['inter'].data.name}.jpg"
+            imgbytes = io.BytesIO()
+            plt.savefig(imgbytes, bbox_inches='tight', transparent=True, pad_inches=0)
+            imgbytes.seek(0)
             plt.close("all")
-            image = disnake.File(image_path)
-            embed.set_image(url=f"attachment://{image_path}")
-            os.remove(image_path)
+            image = disnake.File(imgbytes, filename=img_name)
+            embed.set_image(url=f"attachment://{img_name}")
 
             await kwargs['inter'].send(embed=embed, file=image)
 
