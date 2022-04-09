@@ -12,16 +12,17 @@ I felt the [OpenBB Community](https://github.com/OpenBB-finance/OpenBBTerminal) 
 ```
 @create_and_send_meme()
 def spongebob(inter, text: str, _=None):
-    _.text(
-        0.5,
-        0.2,
-        "\n".join(wrap(text.upper(), 40)),
-        fontsize=20,
-        color="white",
-        alpha=0.9,
-        horizontalalignment="center",
-        path_effects=[pe.withStroke(linewidth=4, foreground="black")]
-    )
+    if text:
+        _.text(
+            0.5,
+            0.2,
+            "\n".join(wrap(''.join(choice((str.upper, str.lower))(c) for c in text), 40)),
+            fontsize=20,
+            color="white",
+            alpha=0.9,
+            horizontalalignment="center",
+            path_effects=[pe.withStroke(linewidth=4, foreground="black")]
+        )
     return _
 ```
 
