@@ -11,7 +11,7 @@ I felt the [OpenBB Community](https://github.com/OpenBB-finance/OpenBBTerminal) 
 
 ```
 @create_and_send_meme()
-def spongebob(inter, text: str, _=None):
+def spongebob(inter, text: str = None, _ = None):
     if text:
         _.text(
             0.5,
