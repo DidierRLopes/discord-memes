@@ -1,4 +1,5 @@
 import os
+import io
 import uuid
 import disnake
 from disnake.ext import commands
@@ -9,8 +10,8 @@ from textwrap import wrap
 from random import choice
 import functools
 
-DISCORD_BOT_API_KEY = os.getenv("DISCORD_BOT_API_KEY")
-IMGUR_API_KEY = os.getenv("IMGUR_API_KEY")
+DISCORD_BOT_API_KEY = "OTUyMzgzNTcxNTkzNjkxMTc3.Yi1OUQ.FqZLlPEB8dAunvHfSSkA3cJCluw"
+IMGUR_API_KEY = "2c6ae1b42387fba"
 
 bot = commands.Bot(sync_commands_debug=True)
 memes_imgur = pyimgur.Imgur(IMGUR_API_KEY)
