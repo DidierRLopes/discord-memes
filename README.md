@@ -1,5 +1,7 @@
 # Discord Memes
 
+<img width="1310" alt="Screenshot 2022-07-04 at 01 54 43" src="https://user-images.githubusercontent.com/25267873/177064233-0dffc6b6-60a7-4b9d-bca6-c0f8158b8cc7.png">
+
 The idea of this Discord Memes is to avoid to open [imgflip](https://imgflip.com) everytime you want to add text to a meme. Personally, I love gifs available through Discord but I feel like sometimes a meme with text is much more powerful.
 
 I felt the [OpenBB Community](https://github.com/OpenBB-finance/OpenBBTerminal) was in need of something like this. So this bot is running on Heroku on [OpenBB Discord](https://discord.gg/kGcmve8Ekw). Try it out now!
